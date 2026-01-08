@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3AC65B42F0E6FC000333CA7 /* HoardMap.Persistence in Frameworks */ = {isa = PBXBuildFile; productRef = D3AC65B32F0E6FC000333CA7 /* HoardMap.Persistence */; };
+		D3AC65B52F0E6FC000333CA7 /* HoardMap.Persistence in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D3AC65B32F0E6FC000333CA7 /* HoardMap.Persistence */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D3AC65D02F0E909100333CA7 /* HoardMap.AddNew in Frameworks */ = {isa = PBXBuildFile; productRef = D3AC65CF2F0E909100333CA7 /* HoardMap.AddNew */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3AC657B2F0E6DCE00333CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC655B2F0E6DCD00333CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AC65622F0E6DCD00333CA7;
+			remoteInfo = HoardMap;
+		};
+		D3AC65852F0E6DCE00333CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC655B2F0E6DCD00333CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AC65622F0E6DCD00333CA7;
+			remoteInfo = HoardMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3AC65B62F0E6FC000333CA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3AC65B52F0E6FC000333CA7 /* HoardMap.Persistence in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3AC65632F0E6DCD00333CA7 /* HoardMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoardMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC657A2F0E6DCE00333CA7 /* HoardMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoardMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC65842F0E6DCE00333CA7 /* HoardMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoardMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC65B92F0E847900333CA7 /* HoardMap.AddNew */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HoardMap.AddNew; sourceTree = "<group>"; };
+		D3AC65BA2F0E847900333CA7 /* HoardMap.Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HoardMap.Persistence; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D3AC658C2F0E6DCE00333CA7 /* Exceptions for "HoardMap" folder in "HoardMap" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D3AC65622F0E6DCD00333CA7 /* HoardMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D3AC65652F0E6DCD00333CA7 /* HoardMap */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3AC658C2F0E6DCE00333CA7 /* Exceptions for "HoardMap" folder in "HoardMap" target */,
+			);
+			path = HoardMap;
+			sourceTree = "<group>";
+		};
+		D3AC657D2F0E6DCE00333CA7 /* HoardMapTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HoardMapTests;
+			sourceTree = "<group>";
+		};
+		D3AC65872F0E6DCE00333CA7 /* HoardMapUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HoardMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3AC65602F0E6DCD00333CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC65D02F0E909100333CA7 /* HoardMap.AddNew in Frameworks */,
+				D3AC65B42F0E6FC000333CA7 /* HoardMap.Persistence in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65772F0E6DCE00333CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65812F0E6DCE00333CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3AC655A2F0E6DCD00333CA7 = {
+			isa = PBXGroup;
+			children = (
+				D3AC65BB2F0E847900333CA7 /* Modules */,
+				D3AC65652F0E6DCD00333CA7 /* HoardMap */,
+				D3AC657D2F0E6DCE00333CA7 /* HoardMapTests */,
+				D3AC65872F0E6DCE00333CA7 /* HoardMapUITests */,
+				D3AC65B22F0E6FC000333CA7 /* Frameworks */,
+				D3AC65642F0E6DCD00333CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3AC65642F0E6DCD00333CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC65632F0E6DCD00333CA7 /* HoardMap.app */,
+				D3AC657A2F0E6DCE00333CA7 /* HoardMapTests.xctest */,
+				D3AC65842F0E6DCE00333CA7 /* HoardMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3AC65B22F0E6FC000333CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AC65BB2F0E847900333CA7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC65B92F0E847900333CA7 /* HoardMap.AddNew */,
+				D3AC65BA2F0E847900333CA7 /* HoardMap.Persistence */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3AC65622F0E6DCD00333CA7 /* HoardMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC658D2F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMap" */;
+			buildPhases = (
+				D3AC655F2F0E6DCD00333CA7 /* Sources */,
+				D3AC65602F0E6DCD00333CA7 /* Frameworks */,
+				D3AC65612F0E6DCD00333CA7 /* Resources */,
+				D3AC65B62F0E6FC000333CA7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC65D22F0E909C00333CA7 /* PBXTargetDependency */,
+				D3AC65B12F0E6F9200333CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3AC65652F0E6DCD00333CA7 /* HoardMap */,
+			);
+			name = HoardMap;
+			packageProductDependencies = (
+				D3AC65B32F0E6FC000333CA7 /* HoardMap.Persistence */,
+				D3AC65CF2F0E909100333CA7 /* HoardMap.AddNew */,
+			);
+			productName = HoardMap;
+			productReference = D3AC65632F0E6DCD00333CA7 /* HoardMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3AC65792F0E6DCE00333CA7 /* HoardMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC65922F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMapTests" */;
+			buildPhases = (
+				D3AC65762F0E6DCE00333CA7 /* Sources */,
+				D3AC65772F0E6DCE00333CA7 /* Frameworks */,
+				D3AC65782F0E6DCE00333CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC657C2F0E6DCE00333CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3AC657D2F0E6DCE00333CA7 /* HoardMapTests */,
+			);
+			name = HoardMapTests;
+			packageProductDependencies = (
+			);
+			productName = HoardMapTests;
+			productReference = D3AC657A2F0E6DCE00333CA7 /* HoardMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3AC65832F0E6DCE00333CA7 /* HoardMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC65952F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMapUITests" */;
+			buildPhases = (
+				D3AC65802F0E6DCE00333CA7 /* Sources */,
+				D3AC65812F0E6DCE00333CA7 /* Frameworks */,
+				D3AC65822F0E6DCE00333CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC65862F0E6DCE00333CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3AC65872F0E6DCE00333CA7 /* HoardMapUITests */,
+			);
+			name = HoardMapUITests;
+			packageProductDependencies = (
+			);
+			productName = HoardMapUITests;
+			productReference = D3AC65842F0E6DCE00333CA7 /* HoardMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3AC655B2F0E6DCD00333CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D3AC65622F0E6DCD00333CA7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D3AC65792F0E6DCE00333CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D3AC65622F0E6DCD00333CA7;
+					};
+					D3AC65832F0E6DCE00333CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D3AC65622F0E6DCD00333CA7;
+					};
+				};
+			};
+			buildConfigurationList = D3AC655E2F0E6DCD00333CA7 /* Build configuration list for PBXProject "HoardMap" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3AC655A2F0E6DCD00333CA7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D3AC65BC2F0E850A00333CA7 /* XCLocalSwiftPackageReference "Modules/HoardMap.Persistence" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3AC65642F0E6DCD00333CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3AC65622F0E6DCD00333CA7 /* HoardMap */,
+				D3AC65792F0E6DCE00333CA7 /* HoardMapTests */,
+				D3AC65832F0E6DCE00333CA7 /* HoardMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3AC65612F0E6DCD00333CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65782F0E6DCE00333CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65822F0E6DCE00333CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3AC655F2F0E6DCD00333CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65762F0E6DCE00333CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC65802F0E6DCE00333CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3AC657C2F0E6DCE00333CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AC65622F0E6DCD00333CA7 /* HoardMap */;
+			targetProxy = D3AC657B2F0E6DCE00333CA7 /* PBXContainerItemProxy */;
+		};
+		D3AC65862F0E6DCE00333CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AC65622F0E6DCD00333CA7 /* HoardMap */;
+			targetProxy = D3AC65852F0E6DCE00333CA7 /* PBXContainerItemProxy */;
+		};
+		D3AC65B12F0E6F9200333CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = D3AC65B02F0E6F9200333CA7 /* HoardMap.Persistence */;
+		};
+		D3AC65D22F0E909C00333CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = D3AC65D12F0E909C00333CA7 /* HoardMap.AddNew */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3AC658E2F0E6DCE00333CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HoardMap/HoardMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoardMap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoardMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3AC658F2F0E6DCE00333CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HoardMap/HoardMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoardMap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoardMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3AC65902F0E6DCE00333CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3AC65912F0E6DCE00333CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3AC65932F0E6DCE00333CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoardMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoardMap";
+			};
+			name = Debug;
+		};
+		D3AC65942F0E6DCE00333CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoardMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoardMap";
+			};
+			name = Release;
+		};
+		D3AC65962F0E6DCE00333CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoardMap;
+			};
+			name = Debug;
+		};
+		D3AC65972F0E6DCE00333CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtfp.HoardMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoardMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3AC655E2F0E6DCD00333CA7 /* Build configuration list for PBXProject "HoardMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC65902F0E6DCE00333CA7 /* Debug */,
+				D3AC65912F0E6DCE00333CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC658D2F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC658E2F0E6DCE00333CA7 /* Debug */,
+				D3AC658F2F0E6DCE00333CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC65922F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC65932F0E6DCE00333CA7 /* Debug */,
+				D3AC65942F0E6DCE00333CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC65952F0E6DCE00333CA7 /* Build configuration list for PBXNativeTarget "HoardMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC65962F0E6DCE00333CA7 /* Debug */,
+				D3AC65972F0E6DCE00333CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D3AC65BC2F0E850A00333CA7 /* XCLocalSwiftPackageReference "Modules/HoardMap.Persistence" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/HoardMap.Persistence;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3AC65B02F0E6F9200333CA7 /* HoardMap.Persistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HoardMap.Persistence;
+		};
+		D3AC65B32F0E6FC000333CA7 /* HoardMap.Persistence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HoardMap.Persistence;
+		};
+		D3AC65CF2F0E909100333CA7 /* HoardMap.AddNew */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HoardMap.AddNew;
+		};
+		D3AC65D12F0E909C00333CA7 /* HoardMap.AddNew */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HoardMap.AddNew;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D3AC655B2F0E6DCD00333CA7 /* Project object */;
+}
