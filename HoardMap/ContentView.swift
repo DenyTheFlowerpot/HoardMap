@@ -22,7 +22,7 @@ struct ContentView: View {
     @State var addItemForm = AddNewItemForm()
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(items) { item in
                     NavigationLink {
@@ -43,7 +43,9 @@ struct ContentView: View {
                     }
                 }
             }.sheet(isPresented: $isPresentingAddItemView) {
-                AddNewItemView(form: $addItemForm).interactiveDismissDisabled(!addItemForm.allowDismiss)
+                NavigationStack{
+                    AddNewItemView(form: $addItemForm).interactiveDismissDisabled(!addItemForm.allowDismiss)
+                }
             }
             Text("Select an item")
         }

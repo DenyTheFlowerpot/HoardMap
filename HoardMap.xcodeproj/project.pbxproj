@@ -49,6 +49,7 @@
 		D3AC65842F0E6DCE00333CA7 /* HoardMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoardMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AC65B92F0E847900333CA7 /* HoardMap.AddNew */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HoardMap.AddNew; sourceTree = "<group>"; };
 		D3AC65BA2F0E847900333CA7 /* HoardMap.Persistence */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HoardMap.Persistence; sourceTree = "<group>"; };
+		D3AD4B252F105EA800A93EBC /* HoardMap.SharedUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HoardMap.SharedUI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -141,6 +142,7 @@
 		D3AC65BB2F0E847900333CA7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D3AD4B252F105EA800A93EBC /* HoardMap.SharedUI */,
 				D3AC65B92F0E847900333CA7 /* HoardMap.AddNew */,
 				D3AC65BA2F0E847900333CA7 /* HoardMap.Persistence */,
 			);

@@ -12,13 +12,13 @@ let package = Package(
             name: "HoardMap.AddNew",
             targets: ["HoardMap.AddNew"]),
     ],
-    dependencies: [.package(path: "HoardMap.Persistence")],
+    dependencies: [.package(path: "HoardMap.Persistence"), .package(path: "HoardMap.SharedUI")],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "HoardMap.AddNew",
-            dependencies: ["HoardMap.Persistence"]),
+            dependencies: ["HoardMap.Persistence", "HoardMap.SharedUI"]),
         .testTarget(
             name: "HoardMap.AddNewTests",
             dependencies: ["HoardMap.AddNew"]
